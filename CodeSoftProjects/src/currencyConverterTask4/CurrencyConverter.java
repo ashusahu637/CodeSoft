@@ -1,4 +1,4 @@
-package currencyConverter;
+package currencyConverterTask4;
 
 import java.net.*;
 import java.util.Scanner;

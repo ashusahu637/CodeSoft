@@ -1,4 +1,4 @@
-package studentManagementSystem;
+package studentManagementSystemTask5;
 
 public class Student {
 	

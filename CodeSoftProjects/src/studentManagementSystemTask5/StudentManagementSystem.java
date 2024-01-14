@@ -1,4 +1,4 @@
-package studentManagementSystem;
+package studentManagementSystemTask5;
 
 import java.util.Collection;
 import java.util.Scanner;

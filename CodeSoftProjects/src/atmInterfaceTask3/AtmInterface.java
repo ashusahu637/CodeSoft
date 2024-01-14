@@ -1,4 +1,4 @@
-package atmInterface;
+package atmInterfaceTask3;
 
 import java.util.Scanner;
 
