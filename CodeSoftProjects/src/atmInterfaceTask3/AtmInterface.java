@@ -117,6 +117,7 @@ public class AtmInterface {
 			System.out.println("Do you want to continue?(yes/no)");
 			String con = scanner.next().toLowerCase();
 			if(!con.equals("yes")) {
+			System.out.println("Thank you for Banking with us.");
 				break;
 			}
 		}while(true);

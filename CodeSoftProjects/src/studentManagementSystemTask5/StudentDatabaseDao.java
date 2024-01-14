@@ -38,7 +38,7 @@ public class StudentDatabaseDao implements StudentInterface<Student, Integer>{
 		try (Connection con = JdbcUtilies.buildConnection();){
 			Statement stmt = con.createStatement();
 			
-			String sqlQuery = "select studentId, studentName, rollNo, grade";
+			String sqlQuery = "select studentId, studentName, rollNo, grade from student ";
 			ResultSet rs = stmt.executeQuery(sqlQuery);
 			
 			while(rs.next()) {
